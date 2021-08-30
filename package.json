@@ -1,0 +1,34 @@
+{
+  "name": "live-financial-data",
+  "version": "1.0.0",
+  "description": "Will return live finanical data from NASDAQ",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/.bin/jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abeadam/live-financial-data.git"
+  },
+  "keywords": [
+    "stock market data",
+    "data NASDAQ"
+  ],
+  "author": "Abe Adam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abeadam/live-financial-data/issues"
+  },
+  "homepage": "https://github.com/abeadam/live-financial-data#readme",
+  "type": "module",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "moment": "^2.29.1"
+  },
+  "devDependencies": {
+    "jest": "^27.0.4"
+  },
+  "jest": {
+    "transform": {}
+  }
+}
